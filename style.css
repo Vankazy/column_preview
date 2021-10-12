@@ -1,0 +1,141 @@
+body{
+    background-color: darkgrey;
+    
+    
+}
+
+section{
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+
+button{
+    margin-left: 50px;
+    margin-top: 80px;
+    border-radius: 1em;
+    height: 5vh;
+    width: 8vw;
+    border: none;
+}
+
+h1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+p{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 1em;
+    
+    
+}
+.goo1{
+    background-color: rgb(231,161,85);
+}
+.goo{
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    color: white;
+}   
+
+ img{
+    display: flex;
+    width: 4vw;
+    position: absolute;
+    bottom: 82%;
+    margin-left: 80px;
+ 
+     
+ }   
+
+
+.goo2{
+    background-color: rgb(2,106, 115);
+    
+}
+
+.goo3{
+    background-color: rgb(67, 115, 116);
+   
+}
+
+
+@media (max-width:1025px) { 
+
+ }
+@media (max-width:768px)  { 
+
+ }
+
+@media (max-width:425px)  {  
+   
+   section{
+    position: static;
+    height: 5vh;
+
+}
+
+.goo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 5vh;
+    color: white;
+
+ }
+
+
+ button{
+    margin-left: 28%;
+    margin-bottom: 25px;
+    border-radius: 1em;
+    height: 5vh;
+    width: 28vw;
+    border: none;
+     
+
+}
+
+h1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    
+}
+
+
+p{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    font-size: 1em;
+    font-size: 1em;
+    width: 60vw;
+}
+
+img{
+
+    width: 25vw;
+    height: 8vh;
+    position: relative;
+    bottom: 85%;
+    left: 30px; 
+    
+    
+     
+ 
+     
+ }   
+
+
+
+}
+
